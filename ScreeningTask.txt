@@ -1,0 +1,20 @@
+
+Team assigned a task on you to create a console application which is supposed to fetch data from some source and perform processing over received data.
+
+In your response just enlist names of major classes\interfaces with method signatures (including constructors) (C# 8+ syntax). You do NOT have to implement anything.
+
+Desired data source and processing type are passed as parameters to the application.
+For example: "myapp.exe --file "C:\myfile.txt" --textReverse"
+
+In first version you need to support:
+- Data source - TextFile
+- Data source - HttpUrl
+- Processing type - WordCount
+- Processing type - TextReverse
+- Processing type - WhitespaceCount
+
+We need to understand how would you distribute responsibilities between classes, keeping application easy to extend.
+There can be any number of data sources and any number of processing types in future versions of your application.
+Every time we add new data source and\or processing type - we should not copy-paste similar code (and follow SOLID principles in general).
+
+If you need to clarify something - you may write your questions to: "Sergey.Antoshin@dxc.com".
